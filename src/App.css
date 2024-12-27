@@ -1,0 +1,28 @@
+.user-container {
+  @apply flex flex-col items-center justify-center h-screen bg-gray-100 space-y-6;
+}
+
+.user-card {
+  @apply bg-white rounded-lg shadow-md p-6 flex items-center space-x-4;
+}
+
+.user-img {
+  @apply w-20 h-20 rounded-full;
+}
+
+.user-info {
+  @apply flex flex-col;
+}
+
+.font-bold {
+  @apply text-lg font-semibold;
+}
+
+
+.buttons-container {
+  @apply flex space-x-4;
+}
+
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600;
+}
